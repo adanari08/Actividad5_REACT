@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 // Componente que usa useState para manejar un estado (el numero del contador)
-function Contado() {
+function Contador() {
   // cuenta es la variable de estado y empieza en 0
   // setCuenta es la funcion que se usa para cambiar el valor de "cuenta"
   const [cuenta, setCuenta] = useState(0);
@@ -16,4 +16,4 @@ function Contado() {
   );
 }
 
-export default Contado;
+export default Contador;
